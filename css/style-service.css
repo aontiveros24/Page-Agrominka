@@ -1,0 +1,61 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+#main #hero {
+  width: 100%;
+  height: 30vh;
+  background: url(../img/img-hero1.jpg) top center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero p{
+  text-align: right;
+  padding-right: 22px;
+  color: #fff;
+}
+
+#hero .section-header h3{
+  color: #fff !important;
+}
+
+
+#service-header{
+  background: #fff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2) !important;
+  padding: 20px 0;
+  height: 72px;
+  transition: all 0.5s;
+  position: relative;
+  z-index: 10;
+}
+
+#service-header #logo1 img {
+  margin: -24px;
+  width: 37%;
+  padding-left: 26px;
+}
+
+#service-about {
+  /* background: url("../img/about-bg.jpg") center top no-repeat fixed; */
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+
+#service-about .about-container .background{
+  min-height: 300px;
+  background: url(../img/service/1.jpg) center top no-repeat;
+  margin-bottom: 10px;
+}
+
+#information .card a{
+  display: block;
+  background-color: #638c76;
+  border-color: #638c76;
+}
+
+#information .card button{
+  color: #18d26e !important;
+}
